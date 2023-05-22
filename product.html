@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Shadows+Into+Light&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+            background-color: #1f1f1f;
+            margin: 0px 40px;
+        }
+        #one
+        {
+            text-align: center;
+            font-size: 1cm;
+            background-color: #1f1f1f;
+            color: goldenrod;
+           
+        }
+        .container
+        {
+           height: auto; 
+           width: auto;
+           display: flex;
+           background-color: #1f1f1f;
+        }
+        .container div{
+            
+            height: 300px;
+            width: 400px;
+            
+            margin: 50px;
+            padding: 4px;
+            color: aliceblue;
+            display: flex;
+            font-size: small;
+            
+        }
+        h1{
+            color: goldenrod;
+            font-family: 'Shadows Into Light', cursive;
+            font-size: 40px;
+        }
+        
+        .zoom {
+    padding: 30px;
+    transition: transform .2s;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+    }
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+.chair
+{
+    height: 40px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 10px;
+    
+}
+h1
+{
+    margin: 0;
+}
+.brand-name
+{
+    float: left;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin-top: 30px;
+    font-size: 30px;
+}
+       
+    </style>
+</head>
+<body >
+    <script src="jquery-3.7.0.min.js">
+    </script>
+    <!-- <script>
+        $('img').click(function(){
+            $('img').animate({height:"400px"})
+        })
+    </script> -->
+    <div id="one">
+        <div >
+            <div><img class="chair" src="chair.png"></div>
+            <div><h1 class="brand-name">Furniture</h1>
+        </div>
+        <div><h style="font-family: 'Ubuntu', sans-serif;font-size: 60px;color: white;margin-right: 200px;"> INTERIORS</h></div>
+    </div>
+    <br><br>
+    <div class="container">
+        <h1> SOFA SET</h1>
+        <div style="margin-left: 95px;"><img style="border-radius: 20%;" src="https://i.pinimg.com/564x/0d/97/b7/0d97b7e11d0dd7749a685dea480bac30.jpg" class="zoom"> </div> 
+        <div> <img  style="border-radius: 20%;"  src="https://images.bonanzastatic.com/afu/images/9041/5893/_t2ec16r__zee9s3___qnbrv4_vlyh___60_57.jpg" class="zoom" ></div>
+        <div> <img  style="border-radius: 20%;" src="https://i.pinimg.com/564x/10/9d/ba/109dba8800f7aff8b79175f796fa8b97.jpg" class="zoom"></div>
+    </div>
+    <div class="container">
+        <h1> COFFEE TABLE</h1>
+        <div><img  style="border-radius: 20%;" src="https://i.pinimg.com/564x/12/8b/48/128b48f8a90b3f5937e517592faf1231.jpg" class="zoom"> </div> 
+        <div> <img  style="border-radius: 20%;" src="https://i.pinimg.com/564x/37/4a/c6/374ac6b77704fc757d1df004be3df0aa.jpg" class="zoom"></div>
+        <div> <img  style="border-radius: 20%;" src="https://i.pinimg.com/564x/60/b8/41/60b841e30f419cb04318c2225d27d96b.jpg"  class="zoom"></div>
+    </div>
+    <div class="container">
+        <h1> BOOK SHELVE</h1>
+        <div><img  style="border-radius: 20%;" src="https://i.pinimg.com/564x/ac/68/fb/ac68fba55dc32240ca8adf55b9101e5d.jpg"  class="zoom"> </div> 
+        <div> <img style="border-radius: 20%;"  src="https://i.pinimg.com/564x/f4/af/dd/f4afddbd0700a288a46604de66f09e69.jpg"  class="zoom"></div>
+        <div style="margin-right: 100px;"> <img  style="border-radius: 20%;" src="https://i.pinimg.com/564x/4b/10/26/4b10262752cd83dfbd5f8593ad582f71.jpg"  class="zoom"></div>
+    </div>
+    <div class="container">
+        <h1> RUGS   </h1>
+        <div style="margin-left: 90px;"><img  style="border-radius: 20%;" src="https://i.pinimg.com/564x/9b/99/82/9b99820b72fb83413efc6a998c84461b.jpg"  class="zoom"> </div> 
+        <div> <img style="border-radius: 20%;"  src="https://i.pinimg.com/564x/72/b8/82/72b88245ad6d278d2f3236e3b1211238.jpg" class="zoom"></div>
+        <div> <img style="border-radius: 20%;"  src="https://i.pinimg.com/564x/72/b8/82/72b88245ad6d278d2f3236e3b1211238.jpg" class="zoom"></div>
+    </div>
+    
+    
+</body>
+</html>
