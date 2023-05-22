@@ -1,0 +1,389 @@
+body {
+  background-color: #1f1f1f;
+}
+
+#sec {
+  padding: 0px 7%;
+}
+
+.f1 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 120px;
+  color: goldenrod;
+  margin: 0;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 900px;
+}
+
+.curved-arrow {
+  position: relative;
+  top: 70px;
+  right: 40px;
+}
+
+.main-list {
+  padding-inline-start: 0;
+  margin: 0 278px;
+}
+.f2 {
+  position: relative;
+  bottom: 65px;
+
+  letter-spacing: -8px;
+  margin: 0;
+  font-size: 150px;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+.curved-arrow {
+  width: 200px;
+  height: auto;
+}
+.lamp {
+  border-radius: 50%;
+  width: 150px;
+  position: relative;
+  top: 90px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1% 0;
+}
+
+.off {
+  color: #fff;
+  position: relative;
+  top: 60px;
+  right: 200px;
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.sale {
+  border: none;
+  position: relative;
+  top: 110px;
+  right: 70px;
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 15px;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.top-para {
+  color: #fff;
+  margin-top: 130px;
+  font-size: 19px;
+  padding: 8% 18%;
+  position: relative;
+  bottom: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.view-product {
+  background-color: goldenrod;
+  border-radius: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 16px;
+  font-size: 22px;
+  font-weight: 550;
+}
+
+.white-img {
+  width: 300px;
+  height: 240px;
+  border-radius: 10px;
+}
+.list {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
+  display: inline;
+  margin: 0px 20px;
+  color: white;
+}
+.prd {
+  color: white;
+  text-decoration: none;
+}
+.brand-name {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+.btn {
+  background-color: goldenrod;
+  padding: 10px 15px;
+  border-radius: 40px;
+  border: none;
+}
+.chair {
+  height: 40px;
+}
+.sofa {
+  position: relative;
+  width: 680px;
+  bottom: 60px;
+  height: 400px;
+
+  border-radius: 20px;
+}
+
+.right-arrow {
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: auto;
+  top: 840px;
+}
+
+.arrow-txt {
+  width: 530px;
+  position: relative;
+  color: #fff;
+  font-size: 25px;
+  bottom: 40px;
+  left: 250px;
+  font-family: "Ubuntu", sans-serif;
+}
+.container {
+  background-color: #1f1f1f;
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  column-gap: 25px;
+}
+.item {
+  background-color: #1f1f1f;
+  border: 1px solid gray;
+  border-radius: 10px;
+  color: white;
+  padding: 30px;
+}
+.quality {
+  width: 55px;
+  padding: 10px 0px;
+}
+.delivery {
+  width: 100px;
+  padding: 10px 0px;
+}
+.return {
+  width: 60px;
+  padding: 10px 0;
+}
+.support {
+  width: 60px;
+  padding: 10px 0;
+}
+.sub-head {
+  font-family: "Shadows Into Light", cursive;
+  color: goldenrod;
+  margin: 0;
+  font-size: 60px;
+}
+.sub-head2 {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  margin: 0;
+  margin-bottom: 100px;
+  font-size: 50px;
+}
+.container1 {
+  background-color: #1f1f1f;
+  height: 200px;
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  column-gap: 110px;
+  margin: 0 0 480px;
+}
+.item1 {
+  background-color: #1f1f1f;
+  color: white;
+}
+.featured {
+  margin-bottom: 100px;
+}
+.white-sofa {
+  height: 500px;
+  border-radius: 20px;
+}
+.sub-headd {
+  font-family: "Shadows Into Light", cursive;
+  color: goldenrod;
+  margin: 0;
+  font-size: 60px;
+}
+.sub-headd2 {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+p {
+  margin: 0;
+}
+.collection {
+  background-color: white;
+  height: 90px;
+  width: 220px;
+  border-radius: 10px;
+  color: black;
+  position: relative;
+  left: 150px;
+  bottom: 40px;
+}
+.collection-img {
+  height: 70px;
+  padding: 10px;
+  float: left;
+}
+.collection-para {
+  padding: 20px;
+}
+.container2 {
+  background-color: #1f1f1f;
+  height: 200px;
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  column-gap: 25px;
+}
+.item2 {
+  background-color: #1f1f1f;
+
+  color: white;
+  padding: 20px;
+}
+
+.c1 {
+  width: 49%;
+  float: left;
+}
+#i2 {
+  height: 199px;
+}
+.c5 {
+  padding: 0px;
+
+  background-color: black;
+}
+.hoho {
+  color: white;
+  margin: 120px 0 0;
+  font-family: "Exo 2", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", sans-serif;
+}
+th {
+  padding-left: 80px;
+  text-align: left;
+  padding-top: 10px;
+  font-size: large;
+  margin-top: 600px;
+}
+.c4 {
+  border: solid;
+  border-color: rgb(52, 56, 56);
+  border-radius: 15px;
+}
+.hqy {
+  float: left;
+  margin-left: 50px;
+  margin-right: 30px;
+  color: beige;
+  margin-top: 70px;
+  border: solid;
+  padding-bottom: 10px;
+  border-color: goldenrod;
+  padding-top: 3px;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 15px;
+  border-width: 5px;
+  width: 25%;
+  height: 500px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.upper {
+  margin: 10px 0;
+  padding: 4px 2px;
+}
+.middle {
+  margin: 10px 0;
+  padding: 4px 2px;
+}
+.bottom {
+  margin: 10px 0;
+  padding: 4px 2px;
+}
+
+.sofa-chair {
+  float: left;
+  width: 50px;
+  margin-right: 50px;
+  border-radius: 100%;
+  border: 1px solid white;
+  padding: 5px 10px;
+}
+
+.furniture {
+  padding-bottom: 50px;
+}
+
+.para-text {
+  padding-left: 130px;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  float: left;
+  justify-content: left;
+}
+
+.mySlides {
+  display: none;
+}
+
+.slideshow-image {
+  width: 500px;
+  height: 500px;
+  border-radius: 30px;
+}
+/* .zoom {
+    padding: 30px;
+    transition: transform .2s;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 63px;
+    right: 30px;
+    
+    } */
+/* 
+.zoom:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.2);
+
+} */
