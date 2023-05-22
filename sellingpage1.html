@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body,
+    html {
+      height: 100%;
+      width: 100%;
+      background-color: #1f1f1f;
+    }
+    .container {
+      background-color: #1f1f1f;
+      height: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      row-gap: 10px;
+      column-gap: 10px;
+    }
+    #item1 {
+      background-color: #1f1f1f;
+
+      color: azure;
+      padding: 20%;
+    }
+    #item2 {
+      background-color: #1f1f1f;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .sofa {
+      height: 500px;
+      width: 500px;
+    }
+    .brand-name {
+      font-size: 40px;
+    }
+    .mid {
+      margin: 30px 0;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div id="item1">
+        <div id="div1" style="display: none">
+          <h1 class="brand-name">Elegant White Chair</h1>
+          <h1>Rs 6000</h1>
+        </div>
+        <div class="mid" style="display: none" id="div2">
+          Introducing the Elegance Series Accent Chair, where sophistication
+          meets comfort. This stunning chair effortlessly combines timeless
+          elegance with modern design elements, making it a perfect addition to
+          any room.Elevate your space with the grace and allure of the Elegance
+          Series Accent Chair.
+        </div>
+        <div style="display: none" id="div3">
+          Specifications:<br />
+          - Material: Premium Upholstery, Solid Wood Frame<br />
+          - Dimensions: 35.5" (H) x 28" (W) x 32" (D)<br />
+          - Seat Height: 18"<br />
+          - Weight Capacity: Up to 300 lbs<br />
+          - Features: Tapered Legs, Plush Seat Cushion, Contoured Backrest,
+          Sturdy Construction<br />
+          - Warranty: 1-year limited warranty<br />
+        </div>
+      </div>
+
+      <div id="item2"><img class="sofa" src="/armchair.png" /></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+       
+          $("#div1").fadeIn(500);
+          $("#div2").fadeIn(1800);
+          $("#div3").fadeIn(2300);
+       
+      });
+    </script>
+  </body>
+</html>
